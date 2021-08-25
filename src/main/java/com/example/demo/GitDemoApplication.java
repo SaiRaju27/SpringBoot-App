@@ -11,6 +11,7 @@ public class GitDemoApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run= SpringApplication.run(GitDemoApplication.class, args);
+		//changes for status2
 		run.close();
 	}
 
